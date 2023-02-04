@@ -22,6 +22,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "allowedCommonJsDependencies": ["firebase/app","@firebase/firestore",
+              "angularfire2","angularfire2/firestore","rxjs-compat"],
             "assets": [
               "src/favicon.ico",
               "src/assets"
